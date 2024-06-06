@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "a": {
+      "item": "polarium:silicon_plate"
+    },
+    "b": {
+      "item": "polarium:redstone_superconductor"
+    },
+    "w": {
+      "item": "minecraft:amethyst_shard"
+    }
+  },
+  "pattern": [
+    "awa",
+    "wbw",
+    "awa"
+  ],
+  "result": {
+    "count": 1,
+    "id": "polarium:base_talisman"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 50,
+  "experience": 0.5,
+  "group": "salt_powder",
+  "ingredient": {
+    "item": "polarium:sand_powder"
+  },
+  "result": {
+    "id": "polarium:salt_powder"
+  }
+}

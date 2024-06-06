@@ -1,0 +1,33 @@
+{
+  "parent": "polarium:main/root",
+  "criteria": {
+    "polarium_cheese": {
+      "conditions": {
+        "items": [
+          {
+            "items": "polarium:cheese"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.polarium.cheese.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "polarium:cheese"
+    },
+    "title": {
+      "translate": "advancements.polarium.cheese.title"
+    }
+  },
+  "requirements": [
+    [
+      "polarium_cheese"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

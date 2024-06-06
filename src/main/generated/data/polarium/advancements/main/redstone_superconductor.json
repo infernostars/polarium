@@ -1,0 +1,34 @@
+{
+  "parent": "polarium:main/root",
+  "criteria": {
+    "polarium_redstone_superconductor": {
+      "conditions": {
+        "items": [
+          {
+            "items": "polarium:redstone_superconductor"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.polarium.redstone_superconductor.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "id": "polarium:redstone_superconductor"
+    },
+    "title": {
+      "translate": "advancements.polarium.redstone_superconductor.title"
+    }
+  },
+  "requirements": [
+    [
+      "polarium_redstone_superconductor"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

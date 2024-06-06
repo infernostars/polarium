@@ -1,0 +1,34 @@
+{
+  "parent": "polarium:main/redstone_superconductor",
+  "criteria": {
+    "polarium_base_talisman": {
+      "conditions": {
+        "items": [
+          {
+            "items": "polarium:base_talisman"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.polarium.base_talisman.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "id": "polarium:base_talisman"
+    },
+    "title": {
+      "translate": "advancements.polarium.base_talisman.title"
+    }
+  },
+  "requirements": [
+    [
+      "polarium_base_talisman"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

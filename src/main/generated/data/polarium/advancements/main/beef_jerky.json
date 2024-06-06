@@ -1,0 +1,33 @@
+{
+  "parent": "polarium:main/root",
+  "criteria": {
+    "polarium_beef_jerky": {
+      "conditions": {
+        "items": [
+          {
+            "items": "polarium:beef_jerky"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.polarium.beef_jerky.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "polarium:beef_jerky"
+    },
+    "title": {
+      "translate": "advancements.polarium.beef_jerky.title"
+    }
+  },
+  "requirements": [
+    [
+      "polarium_beef_jerky"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

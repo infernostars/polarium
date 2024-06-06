@@ -1,0 +1,33 @@
+{
+  "criteria": {
+    "polarium_root_items": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#polarium:root_advancement_items"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+    "description": {
+      "translate": "advancements.polarium.base.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:snowball"
+    },
+    "title": {
+      "translate": "advancements.polarium.base.title"
+    }
+  },
+  "requirements": [
+    [
+      "polarium_root_items"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,7 @@
+/out/
+/run/
+/build/
+/.idea/
+/.gradle/
+/.kotlin/
+/src/main/generated/

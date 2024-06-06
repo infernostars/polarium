@@ -1,0 +1,34 @@
+{
+  "parent": "polarium:main/base_talisman",
+  "criteria": {
+    "polarium_iron_talisman": {
+      "conditions": {
+        "items": [
+          {
+            "items": "polarium:iron_talisman"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.polarium.iron_talisman.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "id": "polarium:iron_talisman"
+    },
+    "title": {
+      "translate": "advancements.polarium.iron_talisman.title"
+    }
+  },
+  "requirements": [
+    [
+      "polarium_iron_talisman"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

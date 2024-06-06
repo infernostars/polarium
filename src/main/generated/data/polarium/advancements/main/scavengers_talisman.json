@@ -1,0 +1,34 @@
+{
+  "parent": "polarium:main/base_talisman",
+  "criteria": {
+    "polarium_scavengers_talisman": {
+      "conditions": {
+        "items": [
+          {
+            "items": "polarium:scavenger_talisman"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.polarium.scavengers_talisman.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "id": "polarium:scavenger_talisman"
+    },
+    "title": {
+      "translate": "advancements.polarium.scavengers_talisman.title"
+    }
+  },
+  "requirements": [
+    [
+      "polarium_scavengers_talisman"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,47 @@
+{
+  "item.polarium.redstone_superconductor": "Redstone Superconductor",
+  "item.polarium.sand_powder": "Powdered Sand",
+  "item.polarium.salt_powder": "Salt",
+  "item.polarium.sand_plate": "Sand Plate",
+  "item.polarium.silicon_plate": "Silicon Plate",
+
+  "item.polarium.cheese": "Cheese",
+  "item.polarium.beef_jerky": "Beef Jerky",
+
+  "item.polarium.heart_crystal": "Not going to stay a thing past 0.1.0, dm @whirlingstars IMMEDIATELY for compensation",
+
+  "item.polarium.coin": "Gold Coin",
+
+  "item.polarium.base_talisman": "Empty Talisman",
+  "item.polarium.reach_talisman": "Reach Talisman",
+  "item.polarium.damage_talisman": "Damage Talisman",
+  "item.polarium.hup_talisman": "Agility Talisman",
+  "item.polarium.iron_talisman": "Iron Talisman",
+  "item.polarium.paper_talisman": "Paper Talisman",
+  "item.polarium.scavenger_talisman": "Scavenger's Talisman",
+
+
+  "advancements.polarium.base.title": "Polarium",
+  "advancements.polarium.base.description": "Create an item from Polarium.",
+
+  "advancements.polarium.cheese.title": "Lactose Tolerant",
+  "advancements.polarium.cheese.description": "Create some delicious cheese by adding salt to milk.",
+
+  "advancements.polarium.beef_jerky.title": "Still Awful",
+  "advancements.polarium.beef_jerky.description": "Create beef jerky by adding salt to rotten flesh.",
+
+  "advancements.polarium.redstone_superconductor.title": "Resistance is Futile",
+  "advancements.polarium.redstone_superconductor.description": "Create a Redstone Superconductor.",
+
+  "advancements.polarium.base_talisman.title": "Wrong-Handed",
+  "advancements.polarium.base_talisman.description": "Create an empty talisman.",
+
+  "advancements.polarium.iron_talisman.title": "Legally not Iron Man",
+  "advancements.polarium.iron_talisman.description": "Create an Iron Talisman.",
+
+  "advancements.polarium.paper_talisman.title": "Sugar (Cane) High",
+  "advancements.polarium.paper_talisman.description": "Create a Paper Talisman.",
+
+  "advancements.polarium.scavengers_talisman.title": "Diggy Diggy Hole",
+  "advancements.polarium.scavengers_talisman.description": "Create a Scavenger's Talisman."
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "polarium:sand_powder"
+    }
+  },
+  "pattern": [
+    "aa "
+  ],
+  "result": {
+    "count": 1,
+    "id": "polarium:sand_plate"
+  }
+}
