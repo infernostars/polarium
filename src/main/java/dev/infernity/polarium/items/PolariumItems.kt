@@ -11,6 +11,9 @@ import net.minecraft.registry.Registries
 import net.minecraft.registry.Registry
 import net.minecraft.text.Text
 
+/**
+ * Registers the items, puts them in an ItemGroup, and can be used as a reference later.
+ */
 object PolariumItems {
     // microcrafting
     val REDSTONE_SUPERCONDUCTOR: Item = register<TexturedPolymerItem>(
@@ -230,11 +233,17 @@ object PolariumItems {
         }
         .build()
 
+    /**
+     * Registers the ItemGroup.
+     */
     fun register() {
         PolymerItemGroupUtils.registerPolymerItemGroup(PolariumServersideInit.Companion.id("items"), ITEM_GROUP)
     }
 
-    private fun <T : Item?> register(path: String, block: T): T {
-        return Registry.register<Item, T>(Registries.ITEM, PolariumServersideInit.Companion.id(path), block)
+    /**
+     * Utility function to register items.
+     */
+    private fun <T : Item?> register(path: String, item: T): T {
+        return Registry.register<Item, T>(Registries.ITEM, PolariumServersideInit.Companion.id(path), item)
     }
 }

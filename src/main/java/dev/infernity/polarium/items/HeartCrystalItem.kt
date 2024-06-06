@@ -9,11 +9,17 @@ import net.minecraft.util.Hand
 import net.minecraft.util.TypedActionResult
 import net.minecraft.world.World
 
+/**
+ * Will be removed soon.
+ *
+ * For now, it alerts the mod developer about refunding them.
+ */
 class HeartCrystalItem : TexturedPolymerItem(
     MicrocraftingItems.emptySetting,
     Items.NETHER_WART,
     PolariumServersideInit.Companion.id("item/heart_crystal")
 ) {
+
     override fun use(world: World, user: PlayerEntity, hand: Hand): TypedActionResult<ItemStack> {
         val stack = user.getStackInHand(hand)
         PolariumServersideInit.Companion.LOGGER.info("WHIRLING NEGOTIATE WITH THEM | heart use by " + user.name.string)
