@@ -38,11 +38,11 @@ class PolariumServersideInit : ModInitializer {
             private set
 
         fun id(path: String?): Identifier {
-            return Identifier(MOD_ID, path)
+            return Identifier.of(MOD_ID, path)!!
         }
 
         fun id(): Identifier {
-            return Identifier(MOD_ID, "default")
+            return Identifier.of(MOD_ID, "default")!!
         }
     }
 }

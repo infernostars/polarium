@@ -25,7 +25,7 @@ class PolariumAdvancements(output: FabricDataOutput, registryLookup: Completable
                 Items.SNOWBALL,  // The display icon
                 Text.translatable("advancements.polarium.base.title"),  // The title
                 Text.translatable("advancements.polarium.base.description"),  // The description
-                Identifier("textures/gui/advancements/backgrounds/adventure.png"),  // Background image used
+                Identifier.ofVanilla("textures/gui/advancements/backgrounds/adventure.png"),  // Background image used
                 AdvancementFrame.TASK,  // Options: TASK, CHALLENGE, GOAL
                 true,  // Show toast top right
                 true,  // Announce to chat

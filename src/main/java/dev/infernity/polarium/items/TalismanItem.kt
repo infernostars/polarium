@@ -1,5 +1,6 @@
 package dev.infernity.polarium.items
 
+import dev.infernity.polarium.PolariumServersideInit.Companion.id
 import dev.infernity.polarium.items.MicrocraftingItems.TexturedPolymerItem
 import net.minecraft.component.type.AttributeModifierSlot
 import net.minecraft.component.type.AttributeModifiersComponent
@@ -48,7 +49,7 @@ class TalismanItem
             value: Double?,
             operation: EntityAttributeModifier.Operation?
         ): Builder {
-            val modifier = EntityAttributeModifier(id.path + "__" + attribute.idAsString, value!!, operation)
+            val modifier = EntityAttributeModifier(id(id.path + "__" + attribute.idAsString), value!!, operation)
             builder.add(attribute, modifier, AttributeModifierSlot.OFFHAND)
             return this
         }

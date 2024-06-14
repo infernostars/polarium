@@ -32,8 +32,10 @@ dependencies {
 
     modImplementation("net.fabricmc:fabric-language-kotlin:1.11.0+kotlin.2.0.0")
 
-    modImplementation include("eu.pb4:polymer-core:0.8.2+1.20.6")
-    modImplementation include("eu.pb4:polymer-resource-pack:0.8.2+1.20.6")
+    modImplementation include("eu.pb4:polymer-core:0.9.1+1.21")
+    modImplementation include("eu.pb4:polymer-resource-pack:0.9.1+1.21")
+    modImplementation include("eu.pb4:polymer-blocks:0.9.1+1.21")
+    modImplementation include("eu.pb4:sgui:1.6.0+1.21")
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
 }
 
