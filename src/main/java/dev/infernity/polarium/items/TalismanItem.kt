@@ -49,7 +49,7 @@ class TalismanItem
             value: Double?,
             operation: EntityAttributeModifier.Operation?
         ): Builder {
-            val modifier = EntityAttributeModifier(id(id.path + "__" + attribute.idAsString), value!!, operation)
+            val modifier = EntityAttributeModifier(id(id.path + "__polariumitem"), value!!, operation)
             builder.add(attribute, modifier, AttributeModifierSlot.OFFHAND)
             return this
         }
