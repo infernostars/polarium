@@ -23,18 +23,18 @@ object PolariumItems {
     )
     val SALT_POWDER: Item = register<TexturedPolymerItem>(
         "salt_powder",
-        MicrocraftingItems.texturedCraftingItem(SUGAR, PolariumServersideInit.Companion.id("item/salt_powder"))
+        MicrocraftingItems.texturedCraftingItem(CLAY_BALL, PolariumServersideInit.Companion.id("item/salt_powder"))
     )
     val SAND_POWDER: Item = register<TexturedPolymerItem>(
         "sand_powder",
-        MicrocraftingItems.texturedCraftingItem(GLOWSTONE_DUST, PolariumServersideInit.Companion.id("item/sand_powder"))
+        MicrocraftingItems.texturedCraftingItem(CLAY_BALL, PolariumServersideInit.Companion.id("item/sand_powder"))
     )
     val SAND_PLATE: Item = register<TexturedPolymerItem>(
         "sand_plate",
-        MicrocraftingItems.texturedCraftingItem(BIRCH_PRESSURE_PLATE, PolariumServersideInit.Companion.id("item/sand_plate"))
+        MicrocraftingItems.texturedCraftingItem(CLAY_BALL, PolariumServersideInit.Companion.id("item/sand_plate"))
     )
     val SILICON_PLATE: Item = register<TexturedPolymerItem>(
-        "silicon_plate", MicrocraftingItems.texturedCraftingItem(POLISHED_BLACKSTONE_PRESSURE_PLATE, PolariumServersideInit.Companion.id("item/silicon_plate"))
+        "silicon_plate", MicrocraftingItems.texturedCraftingItem(CLAY_BALL, PolariumServersideInit.Companion.id("item/silicon_plate"))
     )
 
     // foods
